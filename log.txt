@@ -1,0 +1,59 @@
+Initialized empty Git repository in //10.0.0.3/Alunos2/MTHDEV/Antonio - Python/GITHUB/.git/
+PS X:\MTHDEV\Antonio - Python\GITHUB> git remote add origin https://github.com/aribeirojrr/aulainfinity.git
+PS X:\MTHDEV\Antonio - Python\GITHUB> git config -- global user.name "aribeirojr"
+error: key does not contain a section: global
+PS X:\MTHDEV\Antonio - Python\GITHUB> git config --global user.name "aribeirojr"
+PS X:\MTHDEV\Antonio - Python\GITHUB> git config --global user.email arajr.infinity@gmail.com
+PS X:\MTHDEV\Antonio - Python\GITHUB> git branch -M main
+PS X:\MTHDEV\Antonio - Python\GITHUB> git push -u origin main
+error: failed to push some refs to 'https://github.com/aribeirojrr/aulainfinity.git'
+PS X:\MTHDEV\Antonio - Python\GITHUB> git add .
+PS X:\MTHDEV\Antonio - Python\GITHUB> git status
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   MAIN.py
+
+PS X:\MTHDEV\Antonio - Python\GITHUB> git commit -a -m "meu primeiro commit. -a = ADD -m = MASTER"
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 MAIN.py
+PS X:\MTHDEV\Antonio - Python\GITHUB> git push -u origin main
+info: please complete authentication in your browser...
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 238 bytes | 7.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/aribeirojrr/aulainfinity.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+PS X:\MTHDEV\Antonio - Python\GITHUB> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+nothing to commit, working tree clean
+PS X:\MTHDEV\Antonio - Python\GITHUB> git status
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS X:\MTHDEV\Antonio - Python\GITHUB> git commit -a -m "meu primeiro commit. -a = ADD -m = MASTER"
+[main bdc16e8] meu primeiro commit. -a = ADD -m = MASTER
+ 1 file changed, 1 insertion(+)
+PS X:\MTHDEV\Antonio - Python\GITHUB> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS X:\MTHDEV\Antonio - Python\GITHUB> git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 275 bytes | 91.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/aribeirojrr/aulainfinity.git
+   43c5f3b..bdc16e8  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+PS X:\MTHDEV\Antonio - Python\GITHUB> 
