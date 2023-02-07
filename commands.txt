@@ -1,0 +1,9 @@
+git init
+git remote add origin https://github.com/aribeirojrr/aulainfinity.git
+git config --global user.name "aribeirojr" 
+git config --global user.email arajr.infinity@gmail.com
+git branch -M main
+git status       
+git add .      
+git commit -a -m "meu primeiro commit. -a = ADD -m = MASTER"
+git push -u origin main
